@@ -10,7 +10,7 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    background-image: linear-gradient(to bottom, blue 1px, transparent 2px);
+    background-image: linear-gradient(to bottom, #D5E3F0 2px, transparent 2px);
     background-size: 100% 30px;
 }
 
@@ -21,5 +21,5 @@
     top: 0;
     bottom: 0;
     width: 2px;
-    background-color: red;
+    background-color: rgb(221, 5, 52);
 }
