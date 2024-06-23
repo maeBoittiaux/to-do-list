@@ -1,9 +1,9 @@
 .paper {
     background-color: white;
-    border: 1px solid #cccccc85;
+    border: 1px solid #cccccc;
     box-shadow: 8px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    margin: 40px;
+    margin: 70px;
     border-radius: 0px;
     width: 600px;
     min-height: 800px;
@@ -16,7 +16,7 @@
 .paper::before {
     content: '';
     position: absolute;
-    left: 60px;
+    left: 80px;
     top: 0;
     bottom: 0;
     width: 2px;
@@ -34,4 +34,23 @@
     background-image: linear-gradient(to bottom, #D5E3F0 2px, transparent 1px);
     background-size: 100% 40px;
     z-index: 1;
+}
+
+.hole {
+    position: absolute;
+    left: 30px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 2px solid #cccccc;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.top-hole {
+    top: 230px;
+}
+
+.bottom-hole {
+    top: 550px;
 }
