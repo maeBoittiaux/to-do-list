@@ -6,10 +6,12 @@
     margin: 20px;
     border-radius: 0px;
     width: 600px;
-    min-height: 200px;
+    min-height: 400px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    background-image: linear-gradient(to bottom, blue 1px, transparent 2px);
+    background-size: 100% 30px;
 }
 
 .paper::before {
