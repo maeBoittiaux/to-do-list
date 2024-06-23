@@ -54,3 +54,12 @@
 .bottom-hole {
     top: 550px;
 }
+
+.title {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 24px;
+    font-weight: 600;
+    z-index: 4;
+}
