@@ -9,4 +9,15 @@
     min-height: 200px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+}
+
+.paper::before {
+    content: '';
+    position: absolute;
+    left: 60px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: red;
 }
