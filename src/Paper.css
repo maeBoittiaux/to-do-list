@@ -1,0 +1,13 @@
+.paper {
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 4px;
+    width: 80%;
+    max-width: 600px;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
