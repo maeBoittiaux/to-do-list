@@ -63,20 +63,3 @@
     font-weight: 600;
     z-index: 4;
 }
-
-.todos {
-    margin-top: 25px;
-    margin-left: 80px;
-}
-
-.todo {
-    font-size: 16px;
-}
-
-.todo-input {
-    width: 500px;
-    border: none;
-    border-bottom: 1px solid #cccccc;
-    font-size: 16px;
-    outline: none;
-}
