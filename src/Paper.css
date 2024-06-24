@@ -13,6 +13,7 @@
     z-index: 1;
 }
 
+/* Vertical red line */
 .paper::before {
     content: '';
     position: absolute;
@@ -24,6 +25,7 @@
     z-index: 2;
 }
 
+/* Horizontal blue line */
 .paper::after {
     content: '';
     position: absolute;
@@ -36,6 +38,7 @@
     z-index: 1;
 }
 
+/* General hole styling */
 .hole {
     position: absolute;
     left: 30px;
@@ -47,10 +50,12 @@
     z-index: 3;
 }
 
+/* How far down the page the top hole is */
 .top-hole {
     top: 230px;
 }
 
+/* How far down the page the bottom hole is */
 .bottom-hole {
     top: 550px;
 }
