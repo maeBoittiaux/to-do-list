@@ -78,7 +78,7 @@
 
 /* Default colour : horizontal line : middle button */
 .button-1 .horizontal-line {
-    background-color: #795695;
+    background-color: #aa8cc5;
 }
 
 /* Default colour : horizontal line : bottom button */
@@ -89,37 +89,37 @@
 /* Default colour : border and background : top button */
 .button-0 {
     background-color: white;
-    border-color: #D5E3F0;
+    border-color: #31597e;
 }
 
 /* Default colour : border and background : middle button */
 .button-1 {
     background-color: white;
-    border-color: #795695;
+    border-color: #340a57;
 }
 
 /* Default colour : border and background : bottom button */
 .button-2 {
     background-color: white;
-    border-color: #87ab69;
+    border-color: #214107;
 }
 
 /* Active colour : border and background : top button */
 .button-0.active {
     background-color: #D5E3F0;
-    border-color: #D5E3F0;
+    border-color: #31597e;
 }
 
 /* Active colour : border and background : middle button */
 .button-1.active {
-    background-color: #795695;
-    border-color: #795695;
+    background-color: #aa8cc5;
+    border-color: #340a57;
 }
 
 /* Active colour : border and background : bottom button */
 .button-2.active {
     background-color: #87ab69;
-    border-color: #87ab69;
+    border-color: #214107;
 }
 
 /* Active colour : horizontal line : top button */
