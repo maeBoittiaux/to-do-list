@@ -22,7 +22,13 @@ const ButtonGroup = () => {
                     key={buttonIndex}
                     className={`colour-theme-button button-${buttonIndex} ${activeButton === buttonIndex ? 'active' : ''}`}
                     onClick={() => handleButtonClick(buttonIndex)}
-                ></button>
+                >
+                    <div className="horizontal-lines">
+                        <div className="horizontal-line"></div>
+                        <div className="horizontal-line"></div>
+                        <div className="horizontal-line"></div>
+                    </div>
+                </button>
             ))}
         </div>
     );

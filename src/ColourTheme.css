@@ -50,6 +50,22 @@
     background-color: rgb(221, 5, 52);
 }
 
+.colour-theme-button .horizontal-lines {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.horizontal-line {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(221, 5, 52);
+}
+
 .button-0 {
     background-color: white;
     border-color: #D5E3F0;
