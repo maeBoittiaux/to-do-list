@@ -24,6 +24,30 @@
     outline: none;
     transition: background-color 0.3s;
     margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.colour-theme-button::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 25%;
+    width: 2px;
+    transform: translateX(-50%);
+}
+
+.button-0::before {
+    background-color: rgb(221, 5, 52);
+}
+
+.button-1::before {
+    background-color: rgb(221, 5, 52);
+}
+
+.button-2::before {
+    background-color: rgb(221, 5, 52);
 }
 
 .button-0 {
