@@ -5,8 +5,8 @@ import ColourTheme from './ColourTheme';
 function App() {
   return (
     <div className="App">
-      <Paper />
       <ColourTheme />
+      <Paper />
     </div>
   );
 }

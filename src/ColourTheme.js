@@ -20,10 +20,10 @@ const ButtonGroup = () => {
             {[0, 1, 2].map((buttonIndex) => (
                 <button
                     key={buttonIndex}
-                    className={`spherical-button ${activeButton === buttonIndex ? 'active' : ''}`}
+                    className={`spherical-button button-${buttonIndex} ${activeButton === buttonIndex ? 'active' : ''}`}
                     onClick={() => handleButtonClick(buttonIndex)}
                 >
-                    Button {buttonIndex + 1}
+                    {buttonIndex + 1}
                 </button>
             ))}
         </div>
