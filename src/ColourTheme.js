@@ -22,9 +22,7 @@ const ButtonGroup = () => {
                     key={buttonIndex}
                     className={`colour-theme-button button-${buttonIndex} ${activeButton === buttonIndex ? 'active' : ''}`}
                     onClick={() => handleButtonClick(buttonIndex)}
-                >
-                    {buttonIndex + 1}
-                </button>
+                ></button>
             ))}
         </div>
     );
