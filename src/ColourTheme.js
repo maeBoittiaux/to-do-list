@@ -6,7 +6,7 @@ const ButtonGroup = () => {
     // useState : to manage the state of the active button
     // activeButton : variable to hold index of active button
     // setActiveButton : function to update activeButton state
-    const [activeButton, setActiveButton] = useState(null);
+    const [activeButton, setActiveButton] = useState(0);
 
     // function is called when a button clicked
     // takes index of button clicked and sets it as active button
