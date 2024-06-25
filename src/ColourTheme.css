@@ -22,7 +22,7 @@
     justify-content: center;
     font-size: 14px;
     outline: none;
-    transition: background-color 0.3s, border-color 0.3s;
+    transition: background-color 0.3s;
     margin-bottom: 20px;
 }
 
@@ -32,13 +32,13 @@
 }
 
 .button-1 {
-    background-color: lightgreen;
-    border-color: lightgreen;
+    background-color: white;
+    border-color: #795695;
 }
 
 .button-2 {
-    background-color: lightblue;
-    border-color: lightblue;
+    background-color: white;
+    border-color: #87ab69;
 }
 
 .button-0.active {
@@ -47,11 +47,11 @@
 }
 
 .button-1.active {
-    background-color: darkgreen;
-    border-color: darkgreen;
+    background-color: #795695;
+    border-color: #795695;
 }
 
 .button-2.active {
-    background-color: darkblue;
-    border-color: darkblue;
+    background-color: #87ab69;
+    border-color: #87ab69;
 }
