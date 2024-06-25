@@ -27,8 +27,8 @@
 }
 
 .button-0 {
-    background-color: lightcoral;
-    border-color: lightcoral;
+    background-color: white;
+    border-color: #D5E3F0;
 }
 
 .button-1 {
@@ -42,8 +42,8 @@
 }
 
 .button-0.active {
-    background-color: darkred;
-    border-color: darkred;
+    background-color: #D5E3F0;
+    border-color: #D5E3F0;
 }
 
 .button-1.active {
