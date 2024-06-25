@@ -20,7 +20,7 @@ const ButtonGroup = () => {
             {[0, 1, 2].map((buttonIndex) => (
                 <button
                     key={buttonIndex}
-                    className={`spherical-button button-${buttonIndex} ${activeButton === buttonIndex ? 'active' : ''}`}
+                    className={`colour-theme-button button-${buttonIndex} ${activeButton === buttonIndex ? 'active' : ''}`}
                     onClick={() => handleButtonClick(buttonIndex)}
                 >
                     {buttonIndex + 1}
