@@ -1,26 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './ColourTheme.css';
 
-const ButtonGroup = () => {
-    // State Management
-    // useState : to manage the state of the active button
-    // activeButton : variable to hold index of active button
-    // setActiveButton : function to update activeButton state
-    const [activeButton, setActiveButton] = useState(0);
-
-    // function is called when a button clicked
-    // takes index of button clicked and sets it as active button
+const ColourTheme = ({ theme, onThemeChange }) => {
     const handleButtonClick = (buttonIndex) => {
-        setActiveButton(buttonIndex);
+        onThemeChange(buttonIndex);
     };
 
     return (
-        // button container
         <div className="button-group">
             {[0, 1, 2].map((buttonIndex) => (
                 <button
                     key={buttonIndex}
-                    className={`colour-theme-button button-${buttonIndex} ${activeButton === buttonIndex ? 'active' : ''}`}
+                    className={`colour-theme-button button-${buttonIndex} ${theme === buttonIndex ? 'active' : ''}`}
                     onClick={() => handleButtonClick(buttonIndex)}
                 >
                     <div className="horizontal-lines">
@@ -34,4 +25,4 @@ const ButtonGroup = () => {
     );
 };
 
-export default ButtonGroup;
+export default ColourTheme;
