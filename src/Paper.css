@@ -85,16 +85,11 @@
     z-index: 4;
 }
 
-.edit-button {
-    display: none;
+.pen {
     position: absolute;
-    top: 53%;
+    top: 54%;
     left: calc(100% + 10px);
     transform: translateY(-50%);
-    font-size: 14px;
+    font-size: 18px;
     cursor: pointer;
-}
-
-.title-container:hover .edit-button {
-    display: inline;
 }
