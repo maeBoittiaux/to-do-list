@@ -4,7 +4,10 @@ import './Paper.css';
 const Paper = ({ theme }) => {
     return (
         <div className={`paper theme-${theme}`}>
-            <h1 className="title">To-Do List</h1>
+            <div className="title-container">
+                <h1 className="title">To-Do List</h1>
+                <span className="edit-button">✏️</span>
+            </div>
             <div className="hole top-hole"></div>
             <div className="hole bottom-hole"></div>
         </div>
