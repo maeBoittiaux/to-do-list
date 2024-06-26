@@ -33,9 +33,20 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: linear-gradient(to bottom, #D5E3F0 2px, transparent 1px);
     background-size: 100% 40px;
     z-index: 1;
+}
+
+.theme-0::after {
+    background-image: linear-gradient(to bottom, #D5E3F0 2px, transparent 1px);
+}
+
+.theme-1::after {
+    background-image: linear-gradient(to bottom, #e0d2ec 2px, transparent 1px);
+}
+
+.theme-2::after {
+    background-image: linear-gradient(to bottom, #d6ebc5 2px, transparent 1px);
 }
 
 /* General hole styling */

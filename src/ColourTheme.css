@@ -79,12 +79,12 @@
 
 /* Default colour : horizontal line : middle button */
 .button-1 .horizontal-line {
-    background-color: #aa8cc5;
+    background-color: #e0d2ec;
 }
 
 /* Default colour : horizontal line : bottom button */
 .button-2 .horizontal-line {
-    background-color: #87ab69;
+    background-color: #d6ebc5;
 }
 
 /* Default colour : border and background : top button */
@@ -113,13 +113,13 @@
 
 /* Active colour : border and background : middle button */
 .button-1.active {
-    background-color: #aa8cc5;
+    background-color: #e0d2ec;
     border-color: #340a57;
 }
 
 /* Active colour : border and background : bottom button */
 .button-2.active {
-    background-color: #87ab69;
+    background-color: #d6ebc5;
     border-color: #214107;
 }
 
